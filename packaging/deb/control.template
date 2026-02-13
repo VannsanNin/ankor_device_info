@@ -1,0 +1,11 @@
+Package: @PACKAGE_NAME@
+Version: @VERSION@
+Section: utils
+Priority: optional
+Architecture: @ARCH@
+Maintainer: @MAINTAINER@
+Depends: python3 (>= 3.10), python3-psutil, python3-pyqt6
+Installed-Size: @INSTALLED_SIZE@
+Description: Live hardware monitor for CPU, RAM, disk, network, and NVIDIA GPU
+ Qt desktop monitor for Linux with live CPU, memory, disk, and network metrics.
+ Includes optional NVIDIA GPU data and a pinned always-on-top overlay.

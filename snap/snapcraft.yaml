@@ -1,0 +1,39 @@
+name: ankor-device-info
+title: Ankor Device Info
+base: core24
+version: "1.0.0"
+summary: Live CPU, RAM, disk, network, and NVIDIA GPU monitor
+description: |
+  Desktop hardware monitor with a modern Qt interface.
+
+  It shows:
+  - CPU usage, frequency, and temperature (when available)
+  - RAM, swap, and disk usage
+  - Network upload and download throughput
+  - NVIDIA GPU usage and temperature (optional via pynvml)
+  - A pinned always-on-top overlay for quick metrics
+grade: stable
+confinement: strict
+
+apps:
+  ankor-device-info:
+    extensions: [gnome]
+    command: bin/python3 $SNAP/main.py
+    plugs:
+      - home
+      - network
+      - hardware-observe
+      - system-observe
+      - network-observe
+
+parts:
+  app:
+    plugin: python
+    source: .
+    python-requirements:
+      - requirements.txt
+    python-packages:
+      - PySide6
+    override-build: |
+      craftctl default
+      cp main.py "$CRAFT_PART_INSTALL/main.py"
