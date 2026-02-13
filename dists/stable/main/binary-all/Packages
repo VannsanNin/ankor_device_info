@@ -1,0 +1,17 @@
+Package: ankor-device-info
+Version: 1.0.0
+Architecture: all
+Maintainer: Ankor Maintainers <noreply@example.com>
+Installed-Size: 92
+Depends: python3 (>= 3.10), python3-psutil, python3-pyqt6
+Filename: pool/main/ankor-device-info_1.0.0_all.deb
+Size: 8674
+MD5sum: 5022dd26a8923522824ff287128be989
+SHA1: 4ce865d44a891c8f20bb79e899feb570b9d1e16f
+SHA256: 6701a6a10d36b0f462eb12c7641c91f04801a5526d4068fa799b8bd2358913a0
+Section: utils
+Priority: optional
+Description: Live hardware monitor for CPU, RAM, disk, network, and NVIDIA GPU
+ Qt desktop monitor for Linux with live CPU, memory, disk, and network metrics.
+ Includes optional NVIDIA GPU data and a pinned always-on-top overlay.
+

@@ -11,6 +11,8 @@ build/
 dist/
 *.deb
 apt-repo/
+# Keep APT repository package payloads committed on main
+!pool/**/*.deb
 
 # Tool caches
 .pytest_cache/
