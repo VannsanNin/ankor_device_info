@@ -1,0 +1,40 @@
+Architectures: amd64 all
+Codename: stable
+Components: main
+Date: Fri, 13 Feb 2026 09:07:47 +0000
+Description: APT repository for Ankor Device Info
+Label: Ankor Device Info
+Origin: Ankor
+Suite: stable
+MD5Sum:
+ 8732a739c34e08c916b27ebcea7ad559              200 Release
+ 8f6c26de562d90e3e76c7302136dfc22              678 main/binary-all/Packages
+ 4805b3a7f85a821efe27b81944b0b27e              490 main/binary-all/Packages.gz
+ 40d6ff87fe10def9f547e26ad38fd7e8              552 main/binary-all/Packages.xz
+ 8f6c26de562d90e3e76c7302136dfc22              678 main/binary-amd64/Packages
+ 4805b3a7f85a821efe27b81944b0b27e              490 main/binary-amd64/Packages.gz
+ 40d6ff87fe10def9f547e26ad38fd7e8              552 main/binary-amd64/Packages.xz
+SHA1:
+ c8daa8c261a939695515f9425b232a631ca696f7              200 Release
+ 567ae60e65354430b3231b226aa943335869f20c              678 main/binary-all/Packages
+ 193c84b5fb94e87962d8d0411f504f1d243f0c45              490 main/binary-all/Packages.gz
+ 11dd80575cca3c510fc0064e7ad0b8790fa07515              552 main/binary-all/Packages.xz
+ 567ae60e65354430b3231b226aa943335869f20c              678 main/binary-amd64/Packages
+ 193c84b5fb94e87962d8d0411f504f1d243f0c45              490 main/binary-amd64/Packages.gz
+ 11dd80575cca3c510fc0064e7ad0b8790fa07515              552 main/binary-amd64/Packages.xz
+SHA256:
+ 1fd1f4295b4b5fd0c39f3576c8611dc562a0b124d8de51e79b2e99865644e50d              200 Release
+ 56caaf2dce8aef08499c1482e9fef25afbc5e17270be0cf40fe3ae6b9c2d1dc8              678 main/binary-all/Packages
+ 21c922859eaa911625105ec3f02c0c811f288081f1c47fb343691fa3b3aa41dc              490 main/binary-all/Packages.gz
+ d009d84d3d985a7704d96521717b7a877d7cce434def5053de0a77a085548556              552 main/binary-all/Packages.xz
+ 56caaf2dce8aef08499c1482e9fef25afbc5e17270be0cf40fe3ae6b9c2d1dc8              678 main/binary-amd64/Packages
+ 21c922859eaa911625105ec3f02c0c811f288081f1c47fb343691fa3b3aa41dc              490 main/binary-amd64/Packages.gz
+ d009d84d3d985a7704d96521717b7a877d7cce434def5053de0a77a085548556              552 main/binary-amd64/Packages.xz
+SHA512:
+ 0142585e0eff5f214d0d53578200456e9efc45acbea68ef1ffb03d340844b343459540f9fb1f0892acc77e7843b7efe5f02b3313da0423f467468e3490d5bc04              200 Release
+ de43f50e706e24a980c3938059500581f132e993f3fd0e05bb5e1071bbd94a2217d2b816e695435414497de47a6cf94770a9e974595bfc4119a45c605d666720              678 main/binary-all/Packages
+ 9ab535c53daaf48297d4b124000a8cd2cef28bdc557385d38c3ff64f77ef0db171ba363dc9983a6fb5207f02343c1d874f9e98100c353e9060d46ec456817f45              490 main/binary-all/Packages.gz
+ eedd07e505e149396580b81010173e607936073511cdd50809d0956b9aeeb01fe8c2fedee023b8f4a64b2adc470ba4a004a85126d1e529bb01c807c1f8031071              552 main/binary-all/Packages.xz
+ de43f50e706e24a980c3938059500581f132e993f3fd0e05bb5e1071bbd94a2217d2b816e695435414497de47a6cf94770a9e974595bfc4119a45c605d666720              678 main/binary-amd64/Packages
+ 9ab535c53daaf48297d4b124000a8cd2cef28bdc557385d38c3ff64f77ef0db171ba363dc9983a6fb5207f02343c1d874f9e98100c353e9060d46ec456817f45              490 main/binary-amd64/Packages.gz
+ eedd07e505e149396580b81010173e607936073511cdd50809d0956b9aeeb01fe8c2fedee023b8f4a64b2adc470ba4a004a85126d1e529bb01c807c1f8031071              552 main/binary-amd64/Packages.xz
